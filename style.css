@@ -1,0 +1,993 @@
+/*First Page*/
+html{
+	height: 1000%;
+	width: 180%;
+}
+body{
+
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	min-height: 1000vh;
+	background: #000;		
+
+}
+.bg{
+	background: black;
+}
+.bg-clip{
+	width: auto;
+	height: 272vh;
+	position: absolute;
+	margin-left: 10px;
+	bottom: 100;
+	z-index: -1;
+}
+div{
+	height: 222vh;
+	width: auto;
+}
+.title{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	display: flex;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	margin-left: 32%;
+	top: 23%;
+	/*margin-top: 48%;*/
+	font-size: 7em;
+	font-weight: 900;
+	color: #fff;
+	z-index: 1;
+	overflow: hidden;
+}
+.title2{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	display: flex;
+	position: relative;
+	margin: 0;
+	margin-left: 35%;
+	margin-top: 0.5%;
+	font-size: 4em;
+	font-weight: 900;
+	color: #fff;
+	top: 23%;
+	z-index: 1;
+	overflow: hidden;
+}
+.title3{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 23%;
+	margin-top: 0;
+	font-size: 7em;
+	font-weight: 900;
+	color: #fff;
+	top: 23%;
+	z-index: 1;
+	overflow: hidden;
+}
+.button{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	position: relative;
+	margin: 0;
+	margin-left: 26%;
+	margin-top: 75%;
+	font-size: 4em;
+	font-weight: 900;
+	color: #fff;
+	top: 23%;
+	border: 1mm solid;
+	border-radius: 1mm ;
+	border-spacing: 2px;
+	z-index: 1;
+	overflow: hidden;
+}
+h1 span{
+	color: red;
+}
+h2 span{
+	color: red;
+}
+h3 span{
+	color: red;
+}
+.button span{
+	color: yellow;
+}
+
+h1:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear forwards;
+}
+h2:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: delay 5.5s linear backwards;
+
+}
+h3:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: delay2 5.5s linear backwards;
+}
+.button:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 130%;
+	background: linear-gradient(90deg,transparent 1%, #000 5%, #000 100%);
+	animation: delay3 4.5s linear backwards;
+}
+@keyframes animate{
+	0%{
+		color: black;
+		left: -20%;
+	}
+	100%{
+		left: 100%;
+	}
+}
+@keyframes delay{
+	0%{
+
+		left: -50%;
+	}
+	100%{
+		left: 100%;
+	}
+}
+@keyframes delay2{
+	0%{
+
+		left: -38%;
+	}
+	100%{
+		left: 100%;
+	}
+}
+@keyframes delay3{
+	0%{
+
+		left: -12%;
+	}
+	100%{
+		left: 100%;
+	}
+}
+
+/*Second page*/
+
+.sph1{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 7%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 11em;
+	font-weight: 900;
+	color: cornsilk;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.sph1 span{
+	/*color: slateblue;*/
+}
+
+.h5spn{
+	color: orangered;
+}
+
+h5:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear forwards;
+}
+
+.para1{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para1:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 4.3s;
+}
+
+.para2{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para2:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 5.7s;
+}
+.para3{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para3:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 10s;
+}
+.para4{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para4:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 14.3s;
+}
+.para5{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para5:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 18.6s;
+}
+.para6{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para6:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 22.6s;
+}.para7{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para7:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 26.8s;
+}.para8{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para8:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 31s;
+}
+p{
+	color: skyblue;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+}
+.para9:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 35s;
+}
+
+.para10:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 39s;
+}
+.para11:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 43s;
+}
+.para12{
+	color: deeppink;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 35%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para12:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 46s;
+}
+
+.img-hang{
+	margin-top: 5%;
+	margin-left: 7%;
+	width: 700px;
+	height: 850px;
+	/*border: 8px solid white;*/
+	animation: swing 1s ease-in-out alternate infinite;
+	animation-delay: 45s;
+	transform-origin: center -10px;
+
+
+}
+
+@keyframes swing{
+	0%{transform: rotate(-10deg)}
+	100%{transform: rotate(10deg)}
+}
+
+
+.img-hang img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.img-hang2{
+	margin-top: -23%;
+	margin-left: 47%;
+	width: 700px;
+	height: 850px;
+	/*border: 8px solid white;*/
+	animation: swing 1s ease-in-out alternate infinite;
+	animation-delay: 45s;
+	transform-origin: center -10px;
+
+
+}
+
+@keyframes swing{
+	0%{transform: rotate(-10deg)}
+	100%{transform: rotate(10deg)}
+}
+
+
+.img-hang2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.para13{
+	color: lightyellow;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para13:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 54s;
+}
+.para14{
+	color: lightyellow;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para14:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 58.5s;
+}
+
+.button2{
+	color: deeppink;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 21px #fff,
+    0 0 151px #0fa;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	position: relative;
+	margin: 0;
+	margin-left: 26%;
+	margin-top: 75%;
+	font-size: 6.76em;
+	font-weight: 900;
+	top: 23%;
+	z-index: 1;
+	overflow: hidden;
+}
+.button2:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 130%;
+	background: linear-gradient(90deg,transparent 1%, #000 5%, #000 100%);
+	animation: delay3 1.5s linear backwards;
+	animation-delay: 63s;
+}
+
+/*Third page*/
+.sph2{
+	color: deeppink;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 7%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 11em;
+	font-weight: 900;
+	color: cornsilk;
+	z-index: 1;
+	overflow: hidden;
+}
+.para15{
+	color: deeppink;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para15:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 3s;
+}
+.para16{
+	color: deeppink;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para16:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 8.5s;
+}
+.para17{
+	color: deeppink;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para17:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 13.5s;
+}
+.para18{
+	color: yellow;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para18:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 17.5s;
+}
+.para19{
+	color: yellow;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para19:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 20.5s;
+}
+.para20{
+	color: yellow;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para20:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 23.5s;
+}
+.para21{
+	color: yellow;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 0%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para21:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 27.5s;
+}
+.para22{
+	color: palevioletred;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 70%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para22:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 34.5s;
+}
+.para23{
+	/*color: palevioletred;*/
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 50%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para23:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 42.5s;
+}
+.para24{
+	color: palevioletred;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 51%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para24:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 53.5s;
+}
+.para25{
+	/*color: palevioletred;*/
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 50%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para25:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 64.5s;
+}
+.para26{
+	color: palevioletred;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 50%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para26:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 73.5s;
+}
+.para27{
+	/*color: palevioletred;*/
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	/*display: flex;*/
+	position: relative;
+	margin: 0;
+	margin-left: 2%;
+	margin-top: 50%;
+	top: 23%;
+	font-size: 5em;
+	font-weight: 900;
+	z-index: 1;
+	overflow: hidden;
+
+}
+
+.para27:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent 0%, #000 5%, #000 100%);
+	animation: animate 5.5s linear backwards;
+	animation-delay: 82.5s;
+}
+
+.video-clip{
+	width: auto;
+	height: 113vh;
+	position: absolute;
+	margin-left: 10%;
+	bottom: 100;
+	/*z-index: -1;*/
+}
+
+
+/*Extra*/
+@media screen and (max-width:  200px){
+	html{
+		display: all;
+		flex-wrap: wrap;
+	}
+}
